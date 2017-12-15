@@ -1,7 +1,9 @@
 {
-  "name": "academics",
+  "name": "openpgp-example",
+  "description": "This implementation is the POC for explaining how PGP helps in Confidentiality, Integrity, and Authentication",
+  "author": "kashyaprahul94@gmail.com",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,8 +11,6 @@
     "encrypt": "node index.js --action=ENCRYPT",
     "decrypt": "node index.js --action=DECRYPT"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
     "keybase-encrypt": "^2.0.0",
