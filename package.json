@@ -1,0 +1,21 @@
+{
+  "name": "academics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate-keys": "node index.js --action=GENERATE_KEYS",
+    "encrypt": "node index.js --action=ENCRYPT",
+    "decrypt": "node index.js --action=DECRYPT"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "keybase-encrypt": "^2.0.0",
+    "openpgp": "^2.6.0",
+    "prompt": "^1.0.0",
+    "yargs": "^10.0.3"
+  }
+}
